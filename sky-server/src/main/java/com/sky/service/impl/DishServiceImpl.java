@@ -134,6 +134,7 @@ public class DishServiceImpl implements DishService {
      * 根据id修改菜品的基本信息和对应的口味信息
      * @param dishDTO
      */
+    @Transactional
     @Override
     public void updateWithFlavor(DishDTO dishDTO) {
 
